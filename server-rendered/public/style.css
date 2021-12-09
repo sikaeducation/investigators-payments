@@ -23,3 +23,35 @@ h1 {
 main {
     padding: 1rem;
 }
+
+.form-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    max-width: 20rem;
+}
+
+input, #card-element {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #999;
+}
+
+input[type=submit] {
+    background-color: hsl(140, 50%, 50%);
+    color: #fff;
+    font-weight: 700;
+    padding: 1rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    border: none;
+}
+input[type=submit]:hover {
+    background-color: hsl(140, 50%, 60%);
+}
